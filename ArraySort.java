@@ -6,8 +6,12 @@ class ArraySort{
         // remove repetitions
         for(int i=0; i<arr.length; i++)
         {   
-            if(arr[i] == arr[])
-            System.out.println(arr[i]);
+            if(arr[i] != arr[i+1]){
+                System.out.print(arr[i]);
+            }
+            
+          
+          
         }
         // Arrays.sort(arr);
         // System.out.print(Arrays.toString(arr));
